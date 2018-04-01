@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="30dp">
+        <TextView
+            android:id="@+id/tvDestination"
+            android:layout_width="134dp"
+            android:layout_height="30dp"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/viewline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_height="30dp">
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="126dp"
+           android:layout_marginLeft="80dp"
+           android:textSize="20dp"
+           android:layout_height="30dp"
+           android:text="From Date" />
+       <TextView
+           android:id="@+id/textView5"
+           android:textSize="20dp"
+           android:layout_width="86dp"
+           android:layout_height="30dp"
+           android:text="To Date"/>
+   </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="30dp">
+    <TextView
+        android:id="@+id/tvFromData"
+        android:layout_width="126dp"
+        android:textSize="20dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="80dp" />
+
+    <TextView
+        android:id="@+id/tvToData"
+        android:layout_width="86dp"
+        android:layout_height="30dp"
+        android:textSize="20dp"
+       />
+</LinearLayout>
+    <View
+        android:id="@+id/viewline1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="30dp">
+        <TextView
+            android:id="@+id/tvBudgetEst"
+            android:layout_width="126dp"
+            android:text="Budget"
+            android:textSize="20dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="80dp" />
+
+        <TextView
+            android:id="@+id/tvBudget"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/tvTK"
+            android:layout_width="44dp"
+            android:layout_height="30dp"
+            android:textSize="20dp"
+            android:layout_marginRight="119dp"
+            android:text=" TK" />
+    </LinearLayout>
+    <View
+        android:id="@+id/viewline2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_height="40dp">
+
+        <Button
+            android:id="@+id/btnCreateRecord"
+            android:layout_width="135dp"
+            android:textSize="12dp"
+            android:gravity="center"
+            android:layout_height="40dp"
+            android:text="Create Record" />
+    </LinearLayout>
+    <View
+        android:id="@+id/viewline3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>

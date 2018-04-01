@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/TravelEvent"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Create Event" />
+        <item
+            android:id="@+id/ShowEvent"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Show Event" />
+        <item
+            android:id="@+id/Import"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/Gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="gallery" />
+    </group>
+
+    <item android:title="About App">
+        <menu>
+            <item
+                android:id="@+id/About"
+                android:icon="@drawable/ic_menu_share"
+                android:title="About" />
+            <item
+                android:id="@+id/LogOut"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

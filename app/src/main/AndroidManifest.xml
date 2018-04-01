@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.toremate.tourmate">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/app_name2" />
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name1"></activity>
+        <activity
+            android:name=".TravelEvent"
+            android:label="Travel Event"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ExpenseTraserView"
+            android:label="Create Or View Record"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ExpenseTraser"
+            android:label="View Record"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity android:name=".Camera"
+            android:label="Camera"></activity>
+    </application>
+
+</manifest>
